@@ -3,7 +3,8 @@ function New-CIPPUserTask {
     param (
         $userobj,
         $APIName = 'New User Task',
-        $ExecutingUser
+        $ExecutingUser,
+        $TenantFilter
     )
     $Results = [System.Collections.Generic.List[string]]::new()
 
